@@ -1,0 +1,15 @@
+The explanation is based on LAB 1 code::
+
+The program asks the user for the input. (NB: Input should have white spaces between them for clear identification of the elements).
+
+Below is an example to explain the output.
+		
+	INPUT: int a == int b && int b = int c * int d   while c == 10 && d <= 4
+
+	OUTPUT: ['int', 'a', '==', 'int', 'b', '&&', 'int', 'b', '=', 'int', 'c', '*', 'int', 'd', 'while', 'c', '==', '10', '&&', 'd', '<=', '4']
+
+	      The input expression is split into respective elements and displayed on the screen as shown above.
+
+	      [['DATATYPE', 'int'], ['IDENTIFIER:', 'a'], ['RELATIONAL OPERATOR:', '=='], ['DATATYPE', 'int'], ['IDENTIFIER:', 'b'], ['CONDITIONAL OPERATOR:','&&'], ['DATATYPE', 'int'], ['IDENTIFIER:', 'b'], ['ARITHMETIC OPERATOR', '='], ['DATATYPE', 'int'], ['IDENTIFIER:', 'c'], ['ARITHMETIC OPERATOR', '*'], ['DATATYPE', 'int'], ['IDENTIFIER:', 'd'], ['KEYWORD:', 'while'], ['IDENTIFIER:', 'c'], ['RELATIONAL OPERATOR:', '=='], ['INTEGER', '10'], ['CONDITIONAL OPERATOR:','&&'], ['IDENTIFIER:', 'd'], ['RELATIONAL OPERATOR:', '<=']]
+
+	      The elements are later analyzed and identified by their respective categories such as IDENTIFIERS, OPERATORS, DATATYPES etc as shown above. These categories are based from the code used to give the output above
